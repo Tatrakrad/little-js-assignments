@@ -1,7 +1,7 @@
 //function goes here
 function threeAverage(numA,numB,numC){
   average = (numA+numB+numC)/3;
-  console.log(average);
+  return console.log(average);
 }
 numA = 10;
 numB = 15;

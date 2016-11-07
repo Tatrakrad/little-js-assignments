@@ -1,11 +1,11 @@
 //function goes here
 function sumLab(numA,numB){
-  return console.log(numA+numB);
+  return (numA+numB);
 }
 a = 5;
 b = 7;
-
-sumLab(5,7);
+var sum = 0;
+sum = sumLab(5,7);
 
 
 /*
