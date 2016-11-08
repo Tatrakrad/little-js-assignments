@@ -51,6 +51,10 @@ console.log(compareStringLab(fifthString,seventhString,eigthString));
 
 console.log(compareStringLab(seventhString, sixthString, eigthString));
 console.log(compareStringLab(seventhString, eigthString, ninthString));
+console.log(compareStringLab(seventhString, thirdString, sixthString));
+
+console.log(compareStringLab(thirdString, sixthString, ninthString));
+
 
 /*
 Write a function that takes three strings and returns the shortest. If two of the same length are passed in, it can return either.
