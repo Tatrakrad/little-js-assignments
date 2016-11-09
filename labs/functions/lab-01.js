@@ -2,8 +2,6 @@
 function sumLab(numA,numB){
   return console.log(numA+numB);
 }
-a = 5;
-b = 7;
 
 sumLab(5,7);
 

@@ -2,8 +2,7 @@
 function sumLab(numA,numB){
   return (numA+numB);
 }
-a = 5;
-b = 7;
+
 var sum = 0;
 sum = sumLab(5,7);
 
