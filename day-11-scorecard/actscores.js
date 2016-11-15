@@ -26,8 +26,10 @@ for (var i = 1; i < lines.length - 1; i++){
   var indivArray = lines[i].split(',');
   var tempName = indivArray[nameIndex];
   var tempAct = indivArray[actIndex];
-  var tempString = ("\n"+ tempName + ' : ' + tempAct);
-  output = output.concat(tempString);
+  if(tempAct != 'NULL'){
+    var tempString = ("\n"+ tempName + ' : ' + tempAct);
+    output = output.concat(tempString);
+  }
 }
 
 console.log(output);
