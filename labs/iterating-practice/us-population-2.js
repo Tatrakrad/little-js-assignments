@@ -615,16 +615,14 @@ var dataset = [
 var result;
 // Write a function that will take this data and return just an array of the female population numbers. Requirement: use map.
 function femalePopNumbers(data){
-  var output = [];
-
-  data.map(function(pops){
-    output.push(pops.females);
+  var output = data.map(function(pops){
+    return pops.females;
   });
 
   return output;
 }
 result = femalePopNumbers(dataset);
-// console.log("female pop numbers",result);
+console.log("female pop numbers",result);
 
 // Write a function that will take this data and return just an array of the male population numbers. Requirement: use map.
 
@@ -674,4 +672,4 @@ function popDataWithDifference(data){
   return output;
 }
 result = popDataWithDifference(dataset);
-console.log("Pop data with diffrence in male and female population :",result);
+// console.log("Pop data with diffrence in male and female population :",result);
